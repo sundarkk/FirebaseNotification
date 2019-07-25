@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="horizontal">
+<android.support.v7.widget.AppCompatTextView
+    android:textStyle="normal|bold"
+    android:id="@+id/demo"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Demo"/>
+<ImageButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+   android:src="@drawable/notificationicon"
+    android:layout_alignParentRight="true"/>
+
+    <FrameLayout
+        android:layout_below="@+id/demo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <WebView
+            android:layout_margin="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+        </WebView>
+    </FrameLayout>
+</RelativeLayout>-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        // this is your first layout to put the big image
+        // use src or backgroud image as per requirement
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.AppCompatTextView
+        android:textStyle="normal|bold"
+        android:id="@+id/demo"
+        android:padding="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Demo"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notificationicon"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+        <LinearLayout
+            android:background="#000000"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+        // this is your bottom layout
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </LinearLayout>
+    </LinearLayout>
+
+    // This is the imageview which overlay the first LinearLayout
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/microsoft"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

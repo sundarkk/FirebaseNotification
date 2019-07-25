@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="notifications_new_message"
+            android:summary="@string/pref_title_new_message_notifications"
+            android:title="@string/pref_header_notifications" />
+    </PreferenceScreen>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "614708156149",
+    "firebase_url": "https://notification-7f5b7.firebaseio.com",
+    "project_id": "notification-7f5b7",
+    "storage_bucket": "notification-7f5b7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614708156149:android:2e5e28ca40061f23",
+        "android_client_info": {
+          "package_name": "com.nescantinfo.fcb.fcbnotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614708156149-1bgb48aj16pk7ju1adg570p2e8i9brbe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKTIvJNVCH9aLVHN4wCbyAMrv73T6UTxQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
